@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستندات فنی | afa_raycaster</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <!-- منو -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">afa_raycaster</div>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="devlog.html" class="active">مستندات</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- محتوا -->
+    <main class="container content">
+        <h1>مستندات فنی و چالش‌ها</h1>
+        
+        
+        <article class="post">
+            <div class="img-wrapper">
+            <img src="code.png" alt="part of code">
+        </div>
+        </article>
+        <!-- مقاله ۱ -->
+        <article class="post">
+            <h2>۱. منطق Raycasting</h2>
+            <p>
+                موتور Afa_Bang بر پایه تکنیک Raycasting ساخته شده است. دنیای بازی به صورت یک آرایه دوبعدی ذخیره می‌شود. برای ایجاد عمق، موتور برای هر ستون پیکسلی یک پرتو شلیک می‌کند. فاصله محاسبه شده برای هر پرتو، تعیین‌کننده ارتفاع خط عمودی است که روی صفحه رسم می‌شود.
+            </p>
+        </article>
+
+        <!-- مقاله ۲ -->
+        <article class="post">
+            <h2>۲. چالش Fisheye Effect</h2>
+            <p>
+                یکی از چالش‌های اصلی، جلوگیری از اعوجاج تصویر بود. در ابتدا دیوارها منحنی دیده می‌شدند. برای حل این مشکل، ما به جای فاصله اقلیدسی، از فاصله عمودی پرتو تا صفحه دوربین استفاده کردیم که باعث شد پرسپکتیو کاملاً صحیح و صاف شود.
+            </p>
+        </article>
+
+
+
+
+        <!-- بخش گالری تصاویر و توضیحات -->
+        <section class="gallery-section">
+            <h2>گالری تصاویر و جزئیات پیاده‌سازی</h2>
+            
+            <!-- آیتم تصویر ۱ -->
+            <div class="gallery-item">
+                <div class="img-wrapper">
+                    <!-- نام عکس اول خود را اینجا قرار دهید -->
+                    <img src="2d_screenshot.png" alt="2d_screenshot">
+                </div>
+                
+            </div>
+
+            <!-- آیتم تصویر ۲ -->
+            <div class="gallery-item">
+                <div class="img-wrapper">
+                    <!-- نام عکس دوم خود را اینجا قرار دهید -->
+                    <img src="3d_screenshot.png" alt="3d_screenshot">
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="container">
+            <p>نام: فاطمه احمدی </p>
+            <p> 2026 afa_raycaster Project</p>
+        </div>
+    </footer>
+
+</body>
+</html>
